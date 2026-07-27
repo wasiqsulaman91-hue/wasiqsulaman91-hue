@@ -1,80 +1,85 @@
 <div align="center">
 
-# Hey, I'm Wasiq Sulaman 👋
+# Hey, I'm Wasiq 👋
 
 **Computer Engineering Student · 5th Semester · Pakistan**
 
-*Exploring the intersection of Artificial Intelligence, Database Systems & Algorithms*
-
-</div>
+*Exploring Artificial Intelligence · AI Agents · N8N · Scalable Systems*
 
 ---
 
-## About Me
+[![GitHub followers](https://img.shields.io/github/followers/wasiqsulaman91-hue?style=for-the-badge&logo=github&color=181717)](https://github.com/wasiqsulaman91-hue)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com)
+<!-- [![Portfolio](https://img.shields.io/badge/Portfolio-Explore-8E44AD?style=for-the-badge&logo=react)](https://github.com/wasiqsulaman91-hue) -->
 
-I'm a second-year Computer Engineering student with a fervent curiosity for how data is **structured, stored, and retrieved** at scale. My academic journey currently revolves around two pillars:
+---
 
-- 🗄️ **Database Systems** — Relational design, normalization, SQL, and transaction management
-- 🧠 **Data Structures & Algorithms** — Building efficient, well-reasoned solutions in C++ and Python
-- 🤖 **Artificial Intelligence** — Actively exploring the AI landscape, with hands-on experience in **Agentic AI** and **LLM API integration**
+</div>
 
-I believe the best way to learn is to **build things that work** — so every concept I study finds its way into a project.
+## 📌 About Me
+
+I'm a Computer Engineering student driven by a core question: **How do we build software that is fast, scalable, and intelligent?** 
+
+My journey spans low-level data structures, relational database architectures, and cutting-edge **Agentic AI** systems. I focus heavily on project-based learning—translating core computer science fundamentals directly into production-ready code.
+
+* 🗄️ **Database Systems** — Relational schema design, 3NF normalization, transactions, and SQL optimization.
+* 🧠 **Data Structures & Algorithms** — Hand-crafted O(1)/O(log N) algorithms in C++ and Python without relying strictly on standard libraries.
+* 🎙️ **Agentic & Voice AI** — Designing real-time, interactive AI agents with custom tools, low-latency pipelines, and function calling.
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Domain | Technologies |
-|---|---|
-| **Languages** | Python · C++ · Java · SQL |
-| **Database** | MySQL · Relational Schema Design |
-| **GUI / Frontend** | Tkinter · JavaFX · SFML |
-| **AI / APIs** | Groq API · LLM Integration · Agentic AI |
-| **Tools** | Git · GitHub · PyCharm · VS Code · CLion |
-| **Concepts** | DSA · DBMS · OOP · Normalization · Agentic Workflows |
+<div align="center">
+
+| Domain | Tools & Technologies |
+| :--- | :--- |
+| **Languages** | `Python` · `C++17` · `Java 21` · `SQL` |
+| **AI & Voice** | `LiveKit` · `Groq API` · `LLM Integration` · `Function Calling` · `Sentence Transformers` |
+| **Databases** | `MySQL` · `Relational Schema Design` · `3NF Normalization` |
+| **GUI & Frontend** | `Tkinter` · `JavaFX` · `SFML 3` · `HTML/CSS` |
+| **Dev Tools** | `Git` · `GitHub` · `VS Code` · `CLION` · `PyCharm` · `N8N` · `Livekit` |
+| **Core Concepts** | `DSA` · `DBMS` · `OOP` · `Agentic Workflows` · `System Architecture` |
+
+</div>
 
 ---
 
-## 📂 Projects
+## 📂 Featured Projects
+
+### 1. 🍔 Hardee's AI Voice Ordering & Reservation Agent
+> `Python` · `LiveKit` · `Groq API` · `Agentic AI` · `Web GUI`
+
+**[→ View Repository](https://github.com/wasiqsulaman91-hue)**
+
+A real-time, bidirectional conversational AI voice agent customized for Hardee's drive-thru/ordering and table reservation system, integrated with a local web dashboard interface.
+
+* **What it does:** The agent greets callers, handles complex food orders, places reservations, answers menu queries dynamically, and updates order states on a local interactive web interface in real time.
+* **Technical Depth:** Built on top of **LiveKit's WebRTC framework** for ultra-low latency voice pipelines. Leverages **Groq API** inference, custom function-calling tools (order updates, price calculations, reservation checks), and sentence-transformers for fast contextual retrieval.
 
 ---
 
-### 1. 💼 Vertex — Job Portal Database Management System
+### 2. 💼 Vertex — Job Portal Database Management System
 > `Python` · `MySQL` · `Tkinter` · `Database Systems`
 
 **[→ View Repository](https://github.com/wasiqsulaman91-hue/Job-Portal-Database-Management-System-Python-Based-)**
 
-A full-featured, desktop-based Job Portal built as a 4th Semester **Database Systems (DBS)** project. Simulates a complete hiring pipeline with two distinct user roles — **Admin** and **Applicant** — each with their own dashboard.
+A full-featured desktop application designed to simulate an end-to-end recruitment pipeline with dedicated **Admin** and **Applicant** workflows.
 
-**What it does:** Admins post job listings, review applications, update statuses, and manage an employee workforce. Applicants browse positions, submit applications with cover letters, and receive real-time in-app notifications when their status changes.
-
-**Technical depth:** The database (`job_portal_db`) spans **5 relational tables** and **1 SQL view**, demonstrating schema normalization (3NF), ENUM types, composite UNIQUE constraints, a `CREATE OR REPLACE VIEW` to abstract complex JOINs, SHA-256 password hashing, parameterized queries (SQL injection prevention), and explicit `commit/rollback` transaction management.
+* **What it does:** Admins publish job postings, track applicant pipelines, and manage employees. Applicants browse roles, upload cover letters, and track application statuses via real-time notifications.
+* **Technical Depth:** Spans **5 normalized tables (3NF)** and abstract SQL views. Implements SHA-256 password hashing, parameterized queries to prevent SQL injections, and explicit explicit `COMMIT`/`ROLLBACK` transaction safety.
 
 ---
 
-### 2. 🐍 Snake Game — DSA Edition
+### 3. 🐍 Snake Game — DSA Edition
 > `C++17` · `SFML` · `Data Structures & Algorithms`
 
 **[→ View Repository](https://github.com/wasiqsulaman91-hue/Snake-Game)**
 
-A classic Snake Game in C++ built specifically to understand how the right data structure impacts both correctness and performance in a real, interactive program.
+A performance-focused classic Snake Game implemented entirely using hand-crafted data structures to guarantee smooth 60 FPS gameplay.
 
-**What it does:** A fully functional Snake experience with gradient visuals, pulsing food, speed ramp-up per food eaten, persistent high score, and input buffering — all running at 60 FPS via SFML.
-
-**Technical depth:** The snake body is modelled as a **Doubly Linked List** (`push_front` / `pop_back` O(1)), direction inputs are buffered in a **Circular Queue**, and collision detection uses a **2D Grid array** for O(1) occupancy lookups — every structure is hand-crafted, no STL wrappers.
-
----
-
-### 3. 📚 Library Management System
-> `Java 21` · `JavaFX` · `Object-Oriented Programming`
-
-**[→ View Repository](https://github.com/wasiqsulaman91-hue/Library-Management-System)**
-
-A desktop Library Management System in Java demonstrating OOP design patterns applied to a real administrative workflow, with a dark-themed JavaFX interface.
-
-**What it does:** Librarians manage a book catalogue, approve or reject student borrow requests (via a live notification bell), and monitor inventory. Students browse books, submit borrow requests, and return books directly from their dashboard.
-
-**Technical depth:** Built on a **Singleton** data store, **Inheritance/Polymorphism** (`User → Student, Librarian`), **MVC** (FXML + Controllers), and **JavaFX Observable Properties** that auto-refresh `TableView` nodes on any data change. Book and user lookups use `HashMap<String, T>` for O(1) access.
+* **What it does:** Features custom visual gradients, dynamic speed scaling, persistent high-score tracking, and input buffering.
+* **Technical Depth:** Body movement is backed by a **Doubly Linked List** ($O(1)$ head/tail operations), input buffering uses a custom **Circular Queue**, and collision detection is driven by a **2D Grid Array** ($O(1)$ lookups). Zero STL wrappers used for core logic.
 
 ---
 
@@ -83,45 +88,61 @@ A desktop Library Management System in Java demonstrating OOP design patterns ap
 
 **[→ View Repository](https://github.com/wasiqsulaman91-hue/Snake-Game)**
 
-An interactive, visually-rendered Social Network Analyzer that computes **"People You May Know"** recommendations in real time — built entirely with hand-crafted data structures; no STL containers used for core logic.
+An interactive, visual graph analyzer that computes **"People You May Know"** recommendations on a live SFML canvas.
 
-**What it does:** Users are vertices in an undirected graph rendered on a live SFML canvas. Click any node to select it — the sidebar instantly shows their friends list and ranked suggestions. Nodes are color-coded: 🔵 active user, 🟢 direct friends, 🟡 suggested users, ⚪ unrelated.
-
-**Technical depth:** The graph is represented as a **master linked list of UserNodes**, each with a **singly linked adjacency list** of FriendNodes. The suggestion engine runs a **2-level BFS-bounded traversal** — for each direct friend, it walks their friend list, filters out existing connections, and increments a mutual-count array (O(1) lookup). Results are ranked with **Selection Sort** (descending by mutual count). A **custom FIFO Queue** (built from scratch with `QueueNode*` front/rear pointers) drives the BFS layer.
-
----
-
-### 5. 🤖 Personal AI Bot — Powered by Groq API
-> `Python` · `Groq API` · `LLM Integration` · `Agentic AI`
-
-A conversational AI bot that acts as an intelligent, interactive version of me — powered by the **Groq API**. Instead of a static "About Me" page, visitors can ask it anything and get dynamic, contextually relevant answers about my background, skills, and projects.
-
-**What it does:** Primed with a detailed system prompt encapsulating my academic profile and experience, the bot answers questions like *"What has Wasiq built?"* or *"Is he open to collaboration?"* with coherent, human-like responses at Groq's ultra-fast inference speeds.
-
-**Technical depth:** Integrates with the **Groq Cloud API** (Llama 3 / Mixtral), uses **system prompt engineering** to ground the model's persona, manages **conversation history** for multi-turn coherence, and explores **Agentic AI** patterns — the model reasons about each question, determines what context is relevant, and formulates a response, simulating lightweight agentic decision-making.
+* **What it does:** Renders users as graph nodes in real time. Clicking a user highlights immediate connections and ranks potential friend suggestions based on mutual connections.
+* **Technical Depth:** Custom **Adjacency List** graph representation. Implements a bounded **2-level Breadth-First Search (BFS)** driven by a custom FIFO Queue, with ranked outputs powered by Selection Sort.
 
 ---
 
-## 🧠 Agentic AI — What I've Explored
+### 5. 📚 Library Management System
+> `Java 21` · `JavaFX` · `Object-Oriented Programming`
 
-Agentic AI refers to systems where a language model **reasons, plans, and takes sequential actions** to accomplish a goal. My exploration includes:
+**[→ View Repository](https://github.com/wasiqsulaman91-hue/Library-Management-System)**
 
-- The **ReAct (Reason + Act)** pattern — alternating between thinking and taking tool-based actions
-- Building LLM pipelines where the model **calls tools**, processes outputs, and decides next steps autonomously
-- Working with **Groq's inference API** as the backbone for fast, low-latency agentic loops
-- Experimenting with **prompt chaining** and **context management** to maintain coherent state across multi-step interactions
+A clean, dark-themed administrative dashboard applying core Object-Oriented Design Patterns.
 
----
-
-## 🚀 Currently Working On
-
-- Deepening my understanding of **query optimization** and **indexing strategies** in relational databases
-- Strengthening algorithmic problem-solving through competitive programming practice
-- Advancing **Agentic AI** experiments — building more sophisticated tool-calling pipelines with Groq
-- Exploring **AI/ML fundamentals** to understand where engineering meets intelligence at a deeper level
+* **What it does:** Manages catalog inventories, tracks student requests in real-time through notification bells, and handles book issues/returns.
+* **Technical Depth:** Leverages the **Singleton Pattern** for data persistence, **Polymorphism** (`User -> Student/Librarian`), **MVC Architecture**, and `HashMap` lookups ($O(1)$ access) bound to reactive JavaFX `TableView` elements.
 
 ---
 
-## 📬 Let's Connect
+### 6. 🤖 Personal AI Interactive Persona
+> `Python` · `Groq API` · `LLM Integration`
 
-[![GitHub](https://img.shields.io/badge/GitHub-wasiqsulaman91--hue-181717?style=flat-square&logo=github)](https://github.com/wasiqsulaman91-hue)
+A conversational AI assistant trained on my academic background, projects, and skill set to answer visitor questions dynamically.
+
+* **What it does:** Serves as an interactive, real-time "About Me" resume bot capable of handling multi-turn queries about my work.
+* **Technical Depth:** Powered by Groq's high-speed Llama/Mixtral endpoints, system prompt engineering, and conversational state management.
+
+---
+
+## 🧠 Agentic AI Exploration
+
+I am heavily interested in autonomous AI workflows where models reason, plan, and call tools. Key areas I experiment with:
+
+> 🔄 **ReAct Framework** — Structuring prompts for systematic Reasoning + Acting cycles.  
+> 🛠️ **Function Calling** — Enabling LLMs to execute Python functions, query local databases, and update external UI endpoints.  
+> ⚡ **Voice AI Pipelines** — Combining STT, fast LLM inference (Groq), and TTS via WebRTC (LiveKit) for real-time human-agent interaction.  
+> 🔗 **Workflow Automation** — Building multi-node agentic pipelines using **N8N** and custom APIs.
+
+---
+
+## 📈 Activity & Stats
+
+<div align="center">
+
+<!-- ![Wasiq's GitHub Stats](https://github-readme-stats.vercel.app/api?username=wasiqsulaman91-hue&show_icons=true&theme=tokyonight&hide_border=true) -->
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=wasiqsulaman91-hue&layout=compact&theme=tokyonight&hide_border=true)
+
+</div>
+
+---
+
+<div align="center">
+
+### 🤝 Let's Connect & Build!
+
+**[GitHub](https://github.com/wasiqsulaman91-hue)** · **[Email](mailto:wasiqsulaman@gmail.com)**
+
+</div>
