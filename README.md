@@ -2,7 +2,7 @@
 
 # Hey, I'm Wasiq Sulaman 👋
 
-**Computer Engineering Student · 4th Semester · Pakistan**
+**Computer Engineering Student · 5th Semester · Pakistan**
 
 *Exploring the intersection of Artificial Intelligence, Database Systems & Algorithms*
 
