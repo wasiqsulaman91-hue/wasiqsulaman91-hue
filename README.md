@@ -1,18 +1,10 @@
 <div align="center">
 
-<img src="./spider-banner-full.svg" width="100%" alt="animated spider-web banner"/>
+<img src="./spider-wallpaper-stats.svg" width="100%" alt="animated spider-web wallpaper with live GitHub stats"/>
 
 </div>
 
 <h3 align="center">Computer Engineering Student · COMSATS University Islamabad (Lahore Campus)</h3>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=cplusplus&logoColor=white"/>
-  <img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/-Java-007396?style=flat-square&logo=java&logoColor=white"/>
-  <img src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
-  <img src="https://img.shields.io/badge/-SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white"/>
-</p>
 
 ---
 
