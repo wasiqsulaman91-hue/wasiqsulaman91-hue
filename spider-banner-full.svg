@@ -1,12 +1,12 @@
-<svg width="100%" height="420" viewBox="0 0 1200 420" xmlns="http://www.w3.org/2000/svg">
+<svg width="100%" height="980" viewBox="0 0 1200 980" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#05050a"/>
       <stop offset="45%" stop-color="#170a22"/>
       <stop offset="100%" stop-color="#220509"/>
     </linearGradient>
-    <radialGradient id="glow" cx="50%" cy="30%" r="75%">
-      <stop offset="0%" stop-color="#ff2d3a" stop-opacity="0.30"/>
+    <radialGradient id="glow" cx="50%" cy="18%" r="60%">
+      <stop offset="0%" stop-color="#ff2d3a" stop-opacity="0.28"/>
       <stop offset="100%" stop-color="#ff2d3a" stop-opacity="0"/>
     </radialGradient>
     <linearGradient id="thread" x1="0" y1="0" x2="1" y2="1">
@@ -15,41 +15,37 @@
     </linearGradient>
   </defs>
 
-  <rect width="1200" height="420" fill="url(#bg)"/>
-  <rect width="1200" height="420" fill="url(#glow)"/>
+  <!-- full-canvas background -->
+  <rect width="1200" height="980" fill="url(#bg)"/>
+  <rect width="1200" height="980" fill="url(#glow)"/>
 
-  <!-- Full-background web grid: radiating spokes from all four corners plus center -->
-  <g stroke="#9fd0ee" stroke-width="1" fill="none" opacity="0.35">
-    <!-- top-left corner spokes -->
-    <path d="M0,0 L300,420"><animate attributeName="stroke-dasharray" from="0,520" to="520,0" dur="2s" fill="freeze"/></path>
-    <path d="M0,0 L600,420"><animate attributeName="stroke-dasharray" from="0,750" to="750,0" dur="2s" begin="0.1s" fill="freeze"/></path>
-    <path d="M0,0 L900,420"><animate attributeName="stroke-dasharray" from="0,1000" to="1000,0" dur="2s" begin="0.2s" fill="freeze"/></path>
+  <!-- web spokes covering the ENTIRE canvas, from all four corners -->
+  <g stroke="#9fd0ee" stroke-width="1" fill="none" opacity="0.28">
+    <path d="M0,0 L400,980"><animate attributeName="stroke-dasharray" from="0,1080" to="1080,0" dur="2s" fill="freeze"/></path>
+    <path d="M0,0 L800,980"><animate attributeName="stroke-dasharray" from="0,1280" to="1280,0" dur="2s" begin="0.1s" fill="freeze"/></path>
+    <path d="M0,0 L1200,700"><animate attributeName="stroke-dasharray" from="0,1400" to="1400,0" dur="2s" begin="0.2s" fill="freeze"/></path>
     <path d="M0,0 L1200,300"><animate attributeName="stroke-dasharray" from="0,1250" to="1250,0" dur="2s" begin="0.3s" fill="freeze"/></path>
-    <path d="M0,0 L1200,120"><animate attributeName="stroke-dasharray" from="0,1220" to="1220,0" dur="2s" begin="0.4s" fill="freeze"/></path>
-    <!-- top-right corner spokes -->
-    <path d="M1200,0 L900,420"><animate attributeName="stroke-dasharray" from="0,520" to="520,0" dur="2s" begin="0.15s" fill="freeze"/></path>
-    <path d="M1200,0 L600,420"><animate attributeName="stroke-dasharray" from="0,750" to="750,0" dur="2s" begin="0.25s" fill="freeze"/></path>
-    <path d="M1200,0 L300,420"><animate attributeName="stroke-dasharray" from="0,1000" to="1000,0" dur="2s" begin="0.35s" fill="freeze"/></path>
-    <path d="M1200,0 L0,300"><animate attributeName="stroke-dasharray" from="0,1250" to="1250,0" dur="2s" begin="0.45s" fill="freeze"/></path>
-    <!-- bottom corners mirrored -->
-    <path d="M0,420 L1200,180"><animate attributeName="stroke-dasharray" from="0,1250" to="1250,0" dur="2s" begin="0.5s" fill="freeze"/></path>
-    <path d="M1200,420 L0,180"><animate attributeName="stroke-dasharray" from="0,1250" to="1250,0" dur="2s" begin="0.55s" fill="freeze"/></path>
+    <path d="M0,980 L1200,600"><animate attributeName="stroke-dasharray" from="0,1330" to="1330,0" dur="2s" begin="0.4s" fill="freeze"/></path>
+    <path d="M0,980 L1200,200"><animate attributeName="stroke-dasharray" from="0,1420" to="1420,0" dur="2s" begin="0.5s" fill="freeze"/></path>
+    <path d="M1200,0 L0,700"><animate attributeName="stroke-dasharray" from="0,1400" to="1400,0" dur="2s" begin="0.15s" fill="freeze"/></path>
+    <path d="M1200,980 L0,300"><animate attributeName="stroke-dasharray" from="0,1420" to="1420,0" dur="2s" begin="0.45s" fill="freeze"/></path>
   </g>
 
-  <!-- concentric web arcs across the whole banner, centered mid-canvas -->
-  <g stroke="#e69bab" stroke-width="1" fill="none" opacity="0.4">
-    <ellipse cx="600" cy="210" rx="120" ry="60"><animate attributeName="stroke-dasharray" from="0,600" to="600,0" dur="1.6s" begin="1s" fill="freeze"/></ellipse>
-    <ellipse cx="600" cy="210" rx="260" ry="130"><animate attributeName="stroke-dasharray" from="0,1200" to="1200,0" dur="1.6s" begin="1.15s" fill="freeze"/></ellipse>
-    <ellipse cx="600" cy="210" rx="400" ry="200"><animate attributeName="stroke-dasharray" from="0,1900" to="1900,0" dur="1.6s" begin="1.3s" fill="freeze"/></ellipse>
-    <ellipse cx="600" cy="210" rx="560" ry="280"><animate attributeName="stroke-dasharray" from="0,2600" to="2600,0" dur="1.6s" begin="1.45s" fill="freeze"/></ellipse>
+  <!-- concentric arcs spread down the full height -->
+  <g stroke="#e69bab" stroke-width="1" fill="none" opacity="0.32">
+    <ellipse cx="600" cy="150" rx="150" ry="80"><animate attributeName="stroke-dasharray" from="0,700" to="700,0" dur="1.6s" begin="1s" fill="freeze"/></ellipse>
+    <ellipse cx="600" cy="150" rx="340" ry="180"><animate attributeName="stroke-dasharray" from="0,1500" to="1500,0" dur="1.6s" begin="1.15s" fill="freeze"/></ellipse>
+    <ellipse cx="600" cy="500" rx="200" ry="150"><animate attributeName="stroke-dasharray" from="0,1000" to="1000,0" dur="1.6s" begin="1.3s" fill="freeze"/></ellipse>
+    <ellipse cx="600" cy="500" rx="480" ry="380"><animate attributeName="stroke-dasharray" from="0,2600" to="2600,0" dur="1.6s" begin="1.45s" fill="freeze"/></ellipse>
+    <ellipse cx="600" cy="850" rx="260" ry="110"><animate attributeName="stroke-dasharray" from="0,1200" to="1200,0" dur="1.6s" begin="1.6s" fill="freeze"/></ellipse>
   </g>
 
-  <!-- hanging thread with spider, dropping through center -->
+  <!-- hanging thread with spider dropping down the whole canvas -->
   <g>
     <animateTransform attributeName="transform" type="translate"
-      values="0,0; 0,140; 0,40; 0,200; 0,90; 0,240; 0,240"
+      values="0,0; 0,300; 0,80; 0,450; 0,180; 0,550; 0,550"
       keyTimes="0; 0.15; 0.3; 0.5; 0.65; 0.85; 1"
-      dur="6s" repeatCount="indefinite"/>
+      dur="8s" repeatCount="indefinite"/>
     <line x1="600" y1="-20" x2="600" y2="0" stroke="url(#thread)" stroke-width="1.5" opacity="0.85"/>
     <g transform="translate(600,0)">
       <ellipse cx="0" cy="0" rx="9" ry="12" fill="#0c0c0c"/>
@@ -67,15 +63,26 @@
     </g>
   </g>
 
-  <!-- title text -->
-  <text x="50%" y="38%" text-anchor="middle" font-family="Segoe UI, Verdana, sans-serif"
-        font-size="56" font-weight="800" fill="#f8f8f8" opacity="0">
+  <!-- title -->
+  <text x="50%" y="90" text-anchor="middle" font-family="Segoe UI, Verdana, sans-serif"
+        font-size="52" font-weight="800" fill="#f8f8f8" opacity="0">
     Hi, I'm Wasiq
     <animate attributeName="opacity" from="0" to="1" dur="1s" begin="1.9s" fill="freeze"/>
   </text>
-  <text x="50%" y="47%" text-anchor="middle" font-family="Segoe UI, Verdana, sans-serif"
-        font-size="20" fill="#d6d6e2" opacity="0">
+  <text x="50%" y="130" text-anchor="middle" font-family="Segoe UI, Verdana, sans-serif"
+        font-size="19" fill="#d6d6e2" opacity="0">
     Computer Engineering @ COMSATS · Building things, one commit at a time
     <animate attributeName="opacity" from="0" to="1" dur="1s" begin="2.4s" fill="freeze"/>
   </text>
+
+  <!-- LIVE stats, embedded on top of the wallpaper -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="1s" begin="2.9s" fill="freeze"/>
+    <image href="https://github-readme-stats.vercel.app/api?username=wasiqsulaman91-hue&amp;show_icons=true&amp;theme=radical&amp;hide_border=true&amp;bg_color=00000000"
+           x="60" y="200" width="540" height="230"/>
+    <image href="https://github-readme-stats.vercel.app/api/top-langs/?username=wasiqsulaman91-hue&amp;layout=compact&amp;theme=radical&amp;hide_border=true&amp;bg_color=00000000"
+           x="620" y="200" width="520" height="230"/>
+    <image href="https://streak-stats.demolab.com?user=wasiqsulaman91-hue&amp;theme=radical&amp;hide_border=true&amp;background=00000000"
+           x="150" y="460" width="900" height="330"/>
+  </g>
 </svg>
