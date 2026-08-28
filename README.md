@@ -1,6 +1,6 @@
 <div align="center">
 
-# Hey, I'm Wasiq 👋
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:1D9E75,100:378ADD&height=180&section=header&text=Hey,%20I'm%20Wasiq&fontSize=42&fontColor=ffffff&animation=fadeIn&desc=Computer%20Engineering%20Student%20%C2%B7%205th%20Semester%20%C2%B7%20Pakistan&descSize=16&descAlignY=62" />
 
 **Computer Engineering Student · 5th Semester · Pakistan**
 
@@ -10,15 +10,25 @@
 
 [![GitHub followers](https://img.shields.io/github/followers/wasiqsulaman91-hue?style=for-the-badge&logo=github&color=181717)](https://github.com/wasiqsulaman91-hue)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com)
-<!-- [![Portfolio](https://img.shields.io/badge/Portfolio-Explore-8E44AD?style=for-the-badge&logo=react)](https://github.com/wasiqsulaman91-hue) -->
-
----
+[![Live 3D Demo](https://img.shields.io/badge/Live%203D%20Demo-View-1D9E75?style=for-the-badge&logo=three.js&logoColor=white)](https://wasiqsulaman91-hue.github.io/)
 
 </div>
 
+---
+
+## 🌀 Live 3D skill graph
+
+A live, interactive three.js scene of my core skill set — drag to rotate, scroll to zoom, running for real (not a GIF) via GitHub Pages.
+
+**[→ Open the live demo](https://wasiqsulaman91-hue.github.io/)**
+
+> GitHub strips `<script>` tags from README rendering, so this can't run inline on the profile page itself — it's hosted as a real page in this repo (`index.html`) and linked above. That's the standard way people get "live" interactive content out of a GitHub profile.
+
+---
+
 ## 📌 About Me
 
-I'm a Computer Engineering student driven by a core question: **How do we build software that is fast, scalable, and intelligent?** 
+I'm a Computer Engineering student driven by a core question: **How do we build software that is fast, scalable, and intelligent?**
 
 My journey spans low-level data structures, relational database architectures, and cutting-edge **Agentic AI** systems. I focus heavily on project-based learning—translating core computer science fundamentals directly into production-ready code.
 
@@ -67,7 +77,7 @@ A real-time, bidirectional conversational AI voice agent customized for Hardee's
 A full-featured desktop application designed to simulate an end-to-end recruitment pipeline with dedicated **Admin** and **Applicant** workflows.
 
 * **What it does:** Admins publish job postings, track applicant pipelines, and manage employees. Applicants browse roles, upload cover letters, and track application statuses via real-time notifications.
-* **Technical Depth:** Spans **5 normalized tables (3NF)** and abstract SQL views. Implements SHA-256 password hashing, parameterized queries to prevent SQL injections, and explicit explicit `COMMIT`/`ROLLBACK` transaction safety.
+* **Technical Depth:** Spans **5 normalized tables (3NF)** and abstract SQL views. Implements SHA-256 password hashing, parameterized queries to prevent SQL injections, and explicit `COMMIT`/`ROLLBACK` transaction safety.
 
 ---
 
@@ -121,9 +131,9 @@ A conversational AI assistant trained on my academic background, projects, and s
 
 I am heavily interested in autonomous AI workflows where models reason, plan, and call tools. Key areas I experiment with:
 
-> 🔄 **ReAct Framework** — Structuring prompts for systematic Reasoning + Acting cycles.  
-> 🛠️ **Function Calling** — Enabling LLMs to execute Python functions, query local databases, and update external UI endpoints.  
-> ⚡ **Voice AI Pipelines** — Combining STT, fast LLM inference (Groq), and TTS via WebRTC (LiveKit) for real-time human-agent interaction.  
+> 🔄 **ReAct Framework** — Structuring prompts for systematic Reasoning + Acting cycles.
+> 🛠️ **Function Calling** — Enabling LLMs to execute Python functions, query local databases, and update external UI endpoints.
+> ⚡ **Voice AI Pipelines** — Combining STT, fast LLM inference (Groq), and TTS via WebRTC (LiveKit) for real-time human-agent interaction.
 > 🔗 **Workflow Automation** — Building multi-node agentic pipelines using **N8N** and custom APIs.
 
 ---
@@ -132,7 +142,6 @@ I am heavily interested in autonomous AI workflows where models reason, plan, an
 
 <div align="center">
 
-<!-- ![Wasiq's GitHub Stats](https://github-readme-stats.vercel.app/api?username=wasiqsulaman91-hue&show_icons=true&theme=tokyonight&hide_border=true) -->
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=wasiqsulaman91-hue&layout=compact&theme=tokyonight&hide_border=true)
 
 </div>
@@ -143,6 +152,6 @@ I am heavily interested in autonomous AI workflows where models reason, plan, an
 
 ### 🤝 Let's Connect & Build!
 
-**[GitHub](https://github.com/wasiqsulaman91-hue)** · **[Email](mailto:wasiqsulaman@gmail.com)**
+**[GitHub](https://github.com/wasiqsulaman91-hue)** · **[Email](mailto:wasiqsulaman@gmail.com)** · **[Live 3D Demo](https://wasiqsulaman91-hue.github.io/)**
 
 </div>
