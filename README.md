@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./spider-banner.svg" width="100%" alt="animated spider-web banner"/>
+<img src="./spider-banner-full.svg" width="100%" alt="animated spider-web banner"/>
 
 </div>
 
