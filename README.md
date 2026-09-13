@@ -13,12 +13,3 @@ I'm a Computer Engineering student at COMSATS University Islamabad, currently in
 ![Supabase](https://img.shields.io/badge/Supabase-%233FCF8E.svg?style=for-the-badge&logo=Supabase&logoColor=white)
 ![Microsoft SQL Server](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white)
 ![Linux](https://img.shields.io/badge/linux-%23FCC624.svg?style=for-the-badge&logo=linux&logoColor=black)
-
-## 📊 GitHub Stats
-
-![](https://github-readme-stats.vercel.app/api?username=wasiqsulaman91-hue&show_icons=true&theme=dark)
-
-## 🌐 Connect with me
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/wasiqsulaman)
-[![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:wasiqsulaman91@gmail.com)
